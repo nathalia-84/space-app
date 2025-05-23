@@ -1,12 +1,29 @@
-# React + Vite
+# 🚀 Space App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma galeria interativa de imagens espaciais desenvolvida em React, com foco em estilização moderna e boas práticas de componentes.
 
-Currently, two official plugins are available:
+## 🔧 Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Vite](https://vitejs.dev/)
+- [React](https://react.dev/)
+- [Styled Components](https://styled-components.com/)
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Visualização de imagens espaciais em uma galeria
+- Modal personalizada para expandir imagem
+- Marcação de favoritos
+- Estilização avançada com fontes customizadas
+
+## 🖼️ Design
+
+O projeto segue o design do Figma, com fontes e layout personalizados via Styled Components.
+
+## 📦 Como rodar localmente
+
+```bash
+git clone git@github.com:nathalia-84/space-app.git
+cd space-app
+npm install
+npm run dev
+```
